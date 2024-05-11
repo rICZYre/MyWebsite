@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(220, 205, 186);  
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+    max-height: 1000px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .navbar{
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    max-height: 45px;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    box-shadow: 1px 3px 7px #5A4938;
+  }
+  .navbar a {
+    color: #BB7B41;
+    text-shadow: 1px 1px #5A4938;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana;
+    color: rgb(8, 125, 129);
+    text-shadow: 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  }
+  .navbar a:hover {
+    color: black;
+  }
+  .logo {
+    width: 250px;
+    margin-right: 10px;
+  
+  }
+  .navbar .logo h3{
+  font-family: "Major Mono Display", monospace;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-size: 15px;
+  margin-right: 150px;
+  width: 250px;
+  
+  }
+  .navbar .logo p{
+  font-family: "Madimi One", sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 65px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 22%;
+  margin-top: -20px;
+  background-color: antiquewhite;
+  }
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+.container h1{
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(8, 125, 129);
+    text-shadow: 1px 1px black;
+    margin-bottom: -5px;
+    letter-spacing: 2px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile p{
+    text-align: center;
+    margin-top: 0px;
+    padding-right: 50px;
+    font-family: "Courier Prime", monospace;
+    font-weight: bolder;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.info {
+    margin-bottom: 20px;
+}
+.info h2 {
+    margin-top: 0;
+    margin-bottom: -5px;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info p {
+    margin: 5px 0;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    font-family: "Courier Prime", monospace;
+}
+.skill h2{
+    margin-top: 0;
+    margin-bottom: -5px;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill ul{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Courier Prime", monospace;
+    margin-bottom: 5px;
+}
+.education h3{
+    text-indent: 50px;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.education h2{
+    margin-top: 0;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    margin-bottom: -5px;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education p{
+    text-indent: 50px;
+    letter-spacing: 0px;
+    font-family: "Courier Prime", monospace;
+}
+.training h2{
+    margin-top: 0;
+    margin-bottom: -5px;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.training ul{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Courier Prime", monospace;
+}
+.hobbies h2{
+    margin-top: 0;
+    margin-bottom: -5px;
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: -10;
+    font-family: fantasy,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hobbies ul{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Courier Prime", monospace;
+}
+.Button a {
+    color: #BB7B41;
+    text-shadow: 1px 1px #5A4938;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Verdana;
+    color: rgb(8, 125, 129);
+    text-shadow: 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.Button a:hover {
+    color: black;
+}
+p {
+    font-family: "Courier Prime", monospace;
+}

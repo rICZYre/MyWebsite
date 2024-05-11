@@ -1,0 +1,338 @@
+body{
+  background-color: rgb(220, 205, 186);  
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  max-height: 1000px;
+}
+.navbar{
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  max-height: 45px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+.navbar a {
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.navbar a:hover {
+  color: black;
+}
+.logo {
+  width: 250px;
+  margin-right: 10px;
+
+}
+.navbar .logo h3{
+font-family: "Major Mono Display", monospace;
+font-weight: bold;
+font-style: normal;
+color: rgb(8, 125, 129);
+text-shadow: 1px 1px black;
+font-size: 15px;
+margin-right: 150px;
+width: 250px;
+
+}
+.navbar .logo p{
+font-family: "Madimi One", sans-serif;
+padding-left: 5px;
+padding-right: 5px;
+width: 65px;
+font-weight: 400;
+font-style: normal;
+margin-left: 22%;
+margin-top: -20px;
+background-color: antiquewhite;
+}
+.container{
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-top: 50px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+.container .Map img{
+  float: left;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#Liberty{
+  width: 90%;
+  position: absolute;
+  margin-top: 2000px;
+  margin-left: 30px;
+  text-align: justify;
+  padding: 50px;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  font-size: 20px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+
+#Liberty a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#Liberty a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+
+#Canyon{
+  width: 90%;
+  position: absolute;
+  margin-top: 4000px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+
+#Canyon a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#Canyon a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+
+#Museum{
+  width: 90%;
+  position: absolute;
+  margin-top: 6000px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+
+#Museum a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#Museum a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+#Falls{
+  width: 90%;
+  position: absolute;
+  margin-top: 8000px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+
+#Falls a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#Falls a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+#Itza{
+  width: 90%;
+  position: absolute;
+  margin-top: 10000px;
+  margin-left: 30px;
+  font-size: 20px;
+  padding: 50px;
+  text-align: justify;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+#Itza a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#Itza a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+#HarryPotter{
+  width: 90%;
+  position: absolute;
+  margin-top: 12000px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 50px;
+  top: 300px;
+  box-shadow: 1px 3px 7px #5A4938;
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
+#HarryPotter a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#HarryPotter a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+.pictures{
+  display: flex;
+  padding: 20px;
+}
+.pictures figure{
+  padding: 15px;
+  width: fit-content;
+  border: 4px solid rgb(8, 125, 129);
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(240, 206, 159);
+}
+.pictures figure img{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+.pictures figcaption{
+  display: block;
+  font-weight: 1000;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(8, 125, 129);
+}
+.pictures figure:hover{
+  border-radius: 50px;
+
+}
+p{
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}

@@ -1,0 +1,281 @@
+body{
+  background-color: rgb(220, 205, 186);  
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  max-height: 1000px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.navbar{
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  max-height: 45px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+.navbar a {
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.navbar a:hover {
+  color: black;
+}
+.logo {
+  width: 250px;
+  margin-right: 10px;
+
+}
+.navbar .logo h3{
+font-family: "Major Mono Display", monospace;
+font-weight: bold;
+font-style: normal;
+color: rgb(8, 125, 129);
+text-shadow: 1px 1px black;
+font-size: 15px;
+margin-right: 150px;
+width: 250px;
+
+}
+.navbar .logo p{
+font-family: "Madimi One", sans-serif;
+padding-left: 5px;
+padding-right: 5px;
+width: 65px;
+font-weight: 400;
+font-style: normal;
+margin-left: 22%;
+margin-top: -20px;
+background-color: antiquewhite;
+}
+
+
+.Welcome{
+  max-width: 100%;
+  max-height: fit-content;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+
+.Welcome a {
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.Welcome a:hover {
+  color: black;
+}
+.Welcome h1 {
+  text-align: center;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  margin-bottom: -5px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110px;
+  
+}
+.Welcome h6 {
+  text-align: center;
+  margin-top: -5px;
+  padding-right: 50px;
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+}
+h2 {
+  color: cadetblue;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px black;
+  line-height: -10;
+  font-size:30px;
+}
+#skills{
+    max-width: 90%;
+    position: absolute;
+    margin-top: 3000px;
+    margin-left: 50px;
+    text-align: justify;
+    padding: 10px;
+    top: 300px;
+    box-shadow: 1px 3px 7px #5A4938;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+#skills p {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-indent: 50px;
+    font-size: 25px;
+}
+#skills a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#skills a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+#hobbies a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#hobbies a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+#hobbies{
+    max-width: 90%;
+    position: absolute;
+    margin-top: 6000px;
+    margin-left: 50px;
+    text-align: justify;
+    padding: 10px;
+    top: 300px;
+    box-shadow: 1px 3px 7px #5A4938;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+#hobbies p {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-indent: 50px;
+    font-size: 25px;
+}
+#interest{
+    max-width: 90%;
+    position: absolute;
+    margin-top: 9000px;
+    margin-left: 50px;
+    text-align: justify;
+    padding: 10px;
+    top: 300px;
+    box-shadow: 1px 3px 7px #5A4938;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+#interest p {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-indent: 50px;
+    font-size: 25px;
+}
+#interest a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+#interest a:hover{
+  color: black;
+  font-size: 40px;
+  border: #ccc;
+}
+.pictures{
+  display: flex;
+  margin-left: 35px;
+}
+.pictures figure{
+  border: 4px solid rgb(8, 125, 129);
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(240, 206, 159);
+}
+.pictures figure img{
+  border: 1px solid black;
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+.pictures figcaption{
+  display: block;
+  font-weight: 1000;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(8, 125, 129);
+}
+.pictures figure:hover{
+  border-radius: 50px;
+
+}

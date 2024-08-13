@@ -5,36 +5,7 @@ body{
   margin-top: 0px;
   max-height: 1000px;
 }
-.navbar{
-  display: flex;
-  width: auto;
-  max-width: 100%;
-  max-height: 45px;
-  padding: 35px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: antiquewhite;
-  box-shadow: 1px 3px 7px #5A4938;
-}
-.navbar a {
-  color: #BB7B41;
-  text-shadow: 1px 1px #5A4938;
-  float: right;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  margin-top: 20px;
-  margin-left: 5px;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: Verdana;
-  color: rgb(8, 125, 129);
-  text-shadow: 1px 1px black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-}
-.navbar a:hover {
-  color: black;
-}
+
 .logo {
   width: 250px;
   margin-right: 10px;
@@ -51,18 +22,24 @@ margin-right: 150px;
 width: 250px;
 
 }
-.navbar .logo p{
-font-family: "Madimi One", sans-serif;
-padding-left: 5px;
-padding-right: 5px;
-width: 65px;
-font-weight: 400;
-font-style: normal;
-margin-left: 22%;
-margin-top: -20px;
-background-color: antiquewhite;
-}
+.navbar {
+      display: flex;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      padding: 2cqmin;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: antiquewhite;
+      box-shadow: 1px 3px 7px #5A4938;
+    }
 
+    .navbar img {
+      width: auto;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+    }
 .Welcome{
   max-width: 100%;
   max-height: fit-content;
